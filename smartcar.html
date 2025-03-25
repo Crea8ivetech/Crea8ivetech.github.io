@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 Details - Crea8ivetech</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #eef2f3, #d9e4f5);
+            color: #333;
+            font-family: 'Poppins', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background: #007bff;
+            padding: 15px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            transition: background 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover {
+            color: #ffcc00;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 100px 20px 20px;
+        }
+        .video-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        h2 {
+            color: #007bff;
+        }
+        p {
+            font-size: 18px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        ul li {
+            background: #f8f9fa;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="aboutus.html">About Us</a>
+    </nav>
+    <section class="container">
+        <h1>Project 1: Smart Car</h1>
+        <p>Build your own Bluetooth-controlled Smart Car using Arduino! This project combines robotics, electronics, and coding to create an exciting vehicle that can be remotely operated.</p>
+        
+        <!-- Video Section -->
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/example_video_1" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/example_video_2" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <!-- Materials and Prices -->
+        <div class="section">
+            <h2>Components & Cost Breakdown</h2>
+            <ul>
+                <li>✅ Arduino Uno – LKR 2,000</li>
+                <li>✅ DC Motors (x2) – LKR 1,200</li>
+                <li>✅ Motor Driver (L298N) – LKR 1,500</li>
+                <li>✅ Bluetooth Module (HC-05/HC-06) – LKR 1,800</li>
+                <li>✅ Li-ion Battery Pack (3.7V x2) – LKR 1,500</li>
+                <li>✅ Chassis + Wheels – LKR 1,200</li>
+                <li>✅ Jumper Wires – LKR 300</li>
+                <li>✅ Hot Glue & Mounting Materials – LKR 500</li>
+                <li>✅ Spring Mechanism for Catapult – LKR 1,000</li>
+            </ul>
+            <p><strong>💰 Total Cost: ~LKR 9,000 (Prices may vary based on where you buy)</strong></p>
+        </div>
+        
+        <!-- Instructions -->
+        <div class="section">
+            <h2>Step-by-Step Instructions</h2>
+            <p>Follow these steps to assemble and program your Smart Car:</p>
+            <ol>
+                <li>Assemble the chassis and attach the wheels.</li>
+                <li>Connect the DC motors to the motor driver (L298N).</li>
+                <li>Wire the Arduino Uno with the motor driver and Bluetooth module.</li>
+                <li>Install the Li-ion battery pack and secure all components.</li>
+                <li>Upload the Arduino code for Bluetooth control.</li>
+                <li>Pair the Bluetooth module with your mobile app and start driving!</li>
+            </ol>
+        </div>
+
+        <!-- Additional Resources -->
+        <div class="section">
+            <h2>Additional Resources</h2>
+            <p>For detailed guidance, check out our full tutorial and join our community discussions:</p>
+            <ul>
+                <li><a href="https://www.example.com/tutorial" target="_blank">Full Tutorial</a></li>
+                <li><a href="https://www.example.com/forum" target="_blank">Join the Discussion</a></li>
+            </ul>
+        </div>
+    </section>
+</body>
+</html>
